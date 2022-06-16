@@ -1,0 +1,28 @@
+{
+    "user": [
+        {
+            "name": "Monisha",
+            "email": "monishamoni@gmail.com",
+            "password": "Monisha@15",
+            "id": 1
+        },
+        {
+            "name": "Pathma",
+            "email": "pathma01@gmail.com",
+            "password": "Path@03",
+            "id": 2
+        },
+        {
+            "name": "Sai",
+            "email": "sairam@gmail.com",
+            "password": "SaiRam",
+            "id": 3
+        },
+        {
+            "name": "Ganesh",
+            "email": "ganesh02@gmail.com",
+            "password": "Ganesh02",
+            "id": 4
+        }
+    ]
+}
