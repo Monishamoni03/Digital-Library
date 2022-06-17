@@ -1,0 +1,108 @@
+.login-student {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    height: 310px;
+    width: 396px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .login-container > h3 {
+    color: darkslategray;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .login-container > .login-form > center > input {
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 303px;
+    border: 1px solid darkslategrey;
+    border-radius: 5px;
+    /* outline: none; */
+    padding-left: 20px;
+    background: white;
+    /* border: 1px solid white; */
+    color: black;
+    line-height: 16px;
+    font-size: 17px;
+    vertical-align: middle;
+  } 
+  
+  .login-container > .login-form > center > input::-webkit-input-placeholder {
+    font-size: 17px;
+    color: darkcyan;
+    padding-left: 0px;
+  }
+  
+  .login-login {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: 200ms;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    /* -webkit-font-smoothing: antialised; */
+    font-weight: bold;
+    justify-content: center;
+    background-color: rgb(123, 117, 167);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 300px;
+    color: white;
+  }
+  
+  .side-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+  
+  .side-info > h5 {
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  
+  .rtd {
+    color: blue !important;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 35px;
+  }
+  
+  .side-info Link, .side-info Link h5 {
+    text-decoration: none;
+  }
+  
+  .side-info h5:hover {
+    text-decoration: underline;
+  }
