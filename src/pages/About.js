@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import about from "./aboutLibrary.jpg";
+import about from "../assets/images/aboutLibrary.jpg";
 import Footer from "./Footer";
-import "./About.css";
+import '../assets/css/About.css';
 
 // const About = () => {
-class About extends Component {
+class About extends Component { 
  render() { 
     return (
         <div>
-
             <section className = "content-section container">
                 <h2 className = "about-section-header">ABOUT US</h2>
                 <img src = {about} alt = "about" className = "about-image"></img>

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./Login.css";
+import '../assets/css/Login.css';
 
 function Student() {
 
   return (
-    <div className = 'login'>
+    <div className = 'login-student'>
       <div className = 'login-container'>
         <h3>Log in to digital library</h3>
         <form className = 'login-form '>
@@ -22,7 +22,7 @@ function Student() {
             <div className = 'side-info'>
               <h5>Forgotten password ?</h5>
               <Link to = '/register' style = {{textDecoration: 'none'}}>
-                <h5 className = 'rtd'>Sign-up</h5>
+                <h5 className = 'rtd'>Don't have an account - Sign-up</h5>
               </Link>
             </div>
           </center>

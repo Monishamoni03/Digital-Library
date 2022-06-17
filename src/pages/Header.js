@@ -1,11 +1,9 @@
-import React from 'react'
-import library from './libraryImage.jpg'
-import "./Header.css";
- 
+import React from 'react';
+import '../assets/css/Home.css';
+
 function Header() {
   return (
-    <div className = 'header-container'>
-        <img src = { library } alt = "library" height = {530} width = {1280} className = "responsive" />
+    <div className = 'home-container'>
         <h1>Welcome to Online Library System </h1>
     </div>
   )

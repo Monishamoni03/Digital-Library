@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { Link } from 'react-router-dom';
-import "./Footer.css";
+import "../assets/css/Footer.css";
 
 class Footer extends Component {
     render() {
@@ -12,8 +12,7 @@ class Footer extends Component {
                 <div className = 'input-area'>
                     <form>
                         <input type = 'email' name='email' placeholder = 'Enter your email' className = 'footer-input' />
-                        {/* <Button buttonStyle = 'btn--outline'>Subscribe</Button> */}
-                        <button className = 'btn'>Subscribe</button>
+                        <button className = 'btn-footer'>Subscribe</button>
                     </form>
                 </div>
             </section>
@@ -37,7 +36,7 @@ class Footer extends Component {
                         <Link to='/'>Instagram</Link>
                         <Link to='/'>Facebook</Link>
                     </div>
-                </div>
+                </div> 
             </div>
             <p className = 'copyrights'>Library Management System © 2022</p>
         
