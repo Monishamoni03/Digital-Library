@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import AdminNavBar from './AdminNavBar';
 // import Footer from './Footer';
 
-// function Admin() {
 class Admin extends Component {
   render() {
   return (
