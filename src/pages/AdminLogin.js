@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../assets/css/Login.css';
 import { Link } from 'react-router-dom';
 import NavBar from './NavBar';
 // import Admin from './Admin';
 
-function AdminLogin() {
-
+class AdminLogin extends Component {
+ render() {
   return (
     <div>
       <NavBar />
@@ -34,7 +34,8 @@ function AdminLogin() {
       </div>
     </div>
     </div>
-  )
+  );
+}
 }
 
 export default AdminLogin;
