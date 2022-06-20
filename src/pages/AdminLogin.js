@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import '../assets/css/Login.css';
 import { Link } from 'react-router-dom';
-import '../assets/css/Login.css'; 
 import NavBar from './NavBar';
+// import Admin from './Admin';
 
-class Student extends Component {
-  render() {
+function AdminLogin() {
 
   return (
-  <div>
+    <div>
       <NavBar />
     <div className = 'login-student'>
       <div className = 'login-container'>
-        <h3>Log in to digital library</h3>
+        <h3>Admin Login</h3>
         <form className = 'login-form '>
           <center>
             <input type = 'email' placeholder = 'Email address'  />
@@ -20,22 +20,21 @@ class Student extends Component {
             <input type = 'password' placeholder = 'Password' />
           </center>
           <center>
-            <button type = 'submit' className = 'login-login' >Login</button>
+            <Link to = "/adminpage">
+            <button type = 'submit' className = 'login-login'>Login</button>
+            </Link>
+            {/* <button type = 'submit' className = 'login-login' onClick = {Admin}>Login</button> */}
           </center>
           <center>
             <div className = 'side-info'>
               <h5>Forgotten password ?</h5>
-              <Link to = '/register' style = {{textDecoration: 'none'}}>
-                <h5 className = 'rtd'>Don't have an account? Sign-up</h5>
-              </Link>
             </div>
           </center>
         </form>
       </div>
     </div>
     </div>
-  );
-  }
+  )
 }
 
-export default Student;
+export default AdminLogin;

@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 // import { NavLink } from 'react-router-dom';
 
-class NavBar extends Component {
+class AdminNavBar extends Component {
   render() {
-  return (
+  return ( 
     <>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Library Management System</a>
@@ -24,11 +24,14 @@ class NavBar extends Component {
         <a class="nav-link" href="/contact">Contact</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="/logout">Logout</a>
+      </li>
+      {/* <li class="nav-item">
         <a class="nav-link" href="/login">Student</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/admin">Admin</a>
-      </li>
+      </li> */}
     </ul>
   </div>
 </nav>
@@ -37,4 +40,4 @@ class NavBar extends Component {
   }
 }
 
-export default NavBar;
+export default AdminNavBar;

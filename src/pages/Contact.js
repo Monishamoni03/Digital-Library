@@ -1,14 +1,18 @@
-import React from "react";
+import React, { Component } from "react";
 import '../assets/css/Contact.css'; 
 import contact from "../assets/images/contactUs.jpg";
+import NavBar from "./NavBar";
 // import Footer from "./Footer";
 
-const Contact = () => {
+class Contact extends Component {
+  render() {
     return (
         <div className = "containers">
+            <NavBar />
             <section className = "contact-section cnt">
             <h1 className = "heading">CONTACT US</h1>
             <img src = {contact} alt = "contactUs" className = "contact-image"></img>
+            
             <form className = "forms">
                 <h3>GET IN TOUCH</h3>
                 <label>Name</label>
@@ -26,6 +30,7 @@ const Contact = () => {
             
         </div>
     );
+  }
 }
 
 export default Contact;
