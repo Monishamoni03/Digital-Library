@@ -1,0 +1,73 @@
+.register-student {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+   
+.register-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    height: 490px;
+    width: 396px;
+    background-color: white;
+    text-align: center;
+}
+  
+.register-container > h3 {
+    color: darkslategray;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+.register-container > .register-form > center > input {
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 303px;
+    border: 1px solid darkslategrey;
+    border-radius: 5px;
+    padding-left: 20px;
+    background: white;
+    color: black;
+    line-height: 16px;
+    font-size: 17px;
+    vertical-align: middle;
+} 
+  
+.register-container > .register-form > center > input::-webkit-input-placeholder {
+    font-size: 17px;
+    color: darkcyan;
+    padding-left: 0px;
+}
+  
+.register-register {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: 200ms;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    font-weight: bold;
+    justify-content: center;
+    background-color: rgb(123, 117, 167);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;  
+    width: 300px;
+    margin-top: 5px;
+    color: white;
+}  
