@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "bookId": 101,
+      "bookName": "Engg.Mathematics - M2",
+      "category": "Subject",
+      "author": "A.Ganesh"
+    },
+    {
+      "id": 2,
+      "bookId": 102,
+      "bookName": "C Beginners",
+      "category": "Programming lang",
+      "author": "Mike"
+    },
+    {
+      "id": 3,
+      "bookId": 103,
+      "bookName": "Science",
+      "category": "General",
+      "author": "Stephen Jay"
+    },
+    {
+      "id": 4,
+      "bookId": 104,
+      "bookName": "JAVA",
+      "category": "Programming lang",
+      "author": "James"
+    },
+    {
+      "id": 5,
+      "bookId": 105,
+      "bookName": "French",
+      "category": "Language",
+      "author": "Victor Hugo"
+    }
+  ]
