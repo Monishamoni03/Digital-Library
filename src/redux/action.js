@@ -1,5 +1,6 @@
 import * as types from "./actionType";
 import axios from "axios";
+// import * as API from "./api";
 
 const getUsers = (users) => ({
     type: types.GET_USERS,
@@ -8,6 +9,10 @@ const getUsers = (users) => ({
 
 const userDeleted = () => ({
   type: types.DELETE_USER,
+});
+
+const userAdded = () => ({
+  type: types.ADD_USER,
 });
 
 export const loadUsers = () => {
@@ -31,6 +36,21 @@ export const deleteUser = (id) => {
       .then((resp) => {
           console.log("resp", resp)
           dispatch(userDeleted());
+          dispatch(loadUsers());
+        })
+        .catch((error) => {
+          console.log(error)
+        });
+  };
+}
+
+export const addUser = (user) => {
+  return function (dispatch) {
+      axios
+      .post(`${process.env.REACT_APP_API}`, user)
+      .then((resp) => {
+          console.log("resp", resp)
+          dispatch(userAdded());
           dispatch(loadUsers());
         })
         .catch((error) => {
