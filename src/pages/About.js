@@ -3,7 +3,6 @@ import about from "../assets/images/aboutLibrary.jpg";
 import Footer from "./Footer";
 import '../assets/css/About.css';
 
-// const About = () => {
 class About extends Component { 
  render() { 
     return (

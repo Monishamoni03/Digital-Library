@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import '../assets/css/Contact.css'; 
 import contact from "../assets/images/contactUs.jpg";
-import NavBar from "./NavBar";
 // import Footer from "./Footer";
 
 class Contact extends Component {

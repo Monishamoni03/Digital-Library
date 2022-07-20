@@ -5,7 +5,8 @@ import NavBar from './NavBar';
 // import Admin from './Admin';
 
 class AdminLogin extends Component {
- render() {
+  render() {
+
   return (
     <div>
       <NavBar />
@@ -35,7 +36,7 @@ class AdminLogin extends Component {
     </div>
     </div>
   );
-}
+  }
 }
 
 export default AdminLogin;
