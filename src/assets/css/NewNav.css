@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: skyblue;
+    color: darkred;
+}
+
+nav a {
+    margin: 0 2rem;
+    color: deeppink;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: fuchsia;
+}
